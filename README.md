@@ -2,7 +2,8 @@
 
 #### Schema for athlete_events
 ``` sql
-CREATE TABLE athletes (
+DROP TABLE IF EXISTS athlete_events
+CREATE TABLE athlete_events (
     ID VARCHAR(5) PRIMARY KEY,
     Name VARCHAR(30),
     Sex VARCHAR(1),
