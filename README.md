@@ -1,5 +1,7 @@
 ### Summary of SQL Queries for Olympic Data Analysis
 
+#### You can download the dataset from the archieve.zip file uploaded to the repository. Kindly create the Schema using below sql code snippet and the screen shot. I have used PostgreSQL(pgAdmin4) to develop this Analysis Project. 
+
 #### Schema for athlete_events
 ``` sql
 DROP TABLE IF EXISTS athlete_events
